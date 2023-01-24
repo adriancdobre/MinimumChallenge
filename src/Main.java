@@ -8,10 +8,9 @@ public class Main {
         int[ ] returnedArray = readIntegers();
         System.out.println((Arrays.toString(returnedArray)));
 
-      /*  int returnMin = findMin(returnedArray);
+        int returnMin = findMin(returnedArray);
         System.out.println("min = " + returnMin);
 
-*/
         reverse(returnedArray);
         System.out.println("Final: " + Arrays.toString(returnedArray));
         int[ ] reversedCopy = reverseCopy(returnedArray);
